@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(20,20,20,1) 1%); 
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(20,20,50,1) 1%); 
 }
 
 .calculator {
@@ -13,13 +13,10 @@ body {
     background-color: lightblue;
 }
 
-.operator {
-    background-color:lightgreen;
-}
-
 .calculator-display{
     background-color: black;
     color: white;
+    font-family: monospace;
     font-size: 40px;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 40px;
@@ -36,15 +33,24 @@ body {
     background-color: lightblue;        
 }
 
-.equals {
-    background-color: #2e86c0;
-    height: 100%;
-    grid-area: 3 / 4 / 6 / 5;
+.operator {
+    background-color:lightgreen;
+}
+
+.backspace {
+    background-color:lightsalmon;
 }
 
 .clear {
     background-color: lightcoral;
 }
+
+.equals {
+    background-color: #2e86c0;
+    height: 100%;
+    grid-area: 4 / 4 / 6 / 5;
+}
+
 
 button {        
     background-color: cornflowerblue;
