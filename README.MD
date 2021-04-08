@@ -1,6 +1,4 @@
-A calculator webpage
+A Cool Calculator
 
-add
-subtract
-multiply
-divide
+Features all the basic functions of a calculator
++ Keyboard Support
